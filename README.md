@@ -5,8 +5,11 @@ El proyecto utiliza Maven como herramienta de construcción, por lo que bastará
 
 Maven se encargará de gestionar los recursos y descargará las librerías que hicieran falta.
 
+## Desplegar
+Se asume que este proyecto se ejecuta de manera natural en Tomcat8.
 
-###Rutas:
+
+## Rutas:
 
 Req 1:
 	Consultar todos los registros por tabla (regresa como respuesta un JSON de la tabla)
