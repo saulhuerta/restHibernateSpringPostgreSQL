@@ -1,24 +1,11 @@
-<<<<<<< HEAD
-+SpringRestfulWebServices
-=======
 # SpringRestfulWebServices
-
->>>>>>> master
 
 
 Rutas:
 
 Req 1:
 	Consultar todos los registros por tabla (regresa como respuesta un JSON de la tabla)
-<<<<<<< HEAD
-	http://localhost:8080/SpringRestful/consultar/tabla/clientes
-	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores
-	http://localhost:8080/SpringRestful/consultar/tabla/directorio
-	http://localhost:8080/SpringRestful/consultar/tabla/productos
 
-	Consultar todos los registros de todas las tablas (regresa como respuesta un JSON del contenido de todas las tablas)
-=======
-	
 	http://localhost:8080/SpringRestful/consultar/tabla/clientes
 	
 	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores
@@ -29,34 +16,33 @@ Req 1:
 	
 
 	Consultar todos los registros de todas las tablas (regresa como respuesta un JSON del contenido de todas las tablas)
+
 	
->>>>>>> master
+	http://localhost:8080/SpringRestful/consultar/tabla/clientes
+	
+	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores
+	
+	http://localhost:8080/SpringRestful/consultar/tabla/directorio
+	
+	http://localhost:8080/SpringRestful/consultar/tabla/productos
+	
+
+	Consultar todos los registros de todas las tablas (regresa como respuesta un JSON del contenido de todas las tablas)
+	
 	http://localhost:8080/SpringRestful/consultar/tablas
+
 
 Req 2:
 	Consultar registros de una tabla en especifico por fecha (regresa como respuesta un JSON de la tabla)
-<<<<<<< HEAD
-	http://localhost:8080/SpringRestful/consultar/tabla/clientes/{fecha}
-	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores/{fecha}
-	http://localhost:8080/SpringRestful/consultar/tabla/directorio/{fecha}
-	http://localhost:8080/SpringRestful/consultar/tabla/productos/{fecha}
-=======
-	
-	http://localhost:8080/SpringRestful/consultar/tabla/clientes/{fecha}
-	
-	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores/{fecha}
-	
-	http://localhost:8080/SpringRestful/consultar/tabla/directorio/{fecha}
-	
-	http://localhost:8080/SpringRestful/consultar/tabla/productos/{fecha}
-	
->>>>>>> master
 
-	Consultar registros de todas las tablas por fecha
-	http://localhost:8080/SpringRestful/consultar/tablas/{fecha}
+	http://localhost:8080/SpringRestful/consultar/tabla/clientes/{fecha}
 	
-<<<<<<< HEAD
-=======
+	http://localhost:8080/SpringRestful/consultar/tabla/distribuidores/{fecha}
 	
->>>>>>> master
-	Fecha en formato: dd-MM-YYY   (17-04-2011)
+	http://localhost:8080/SpringRestful/consultar/tabla/directorio/{fecha}
+	
+	http://localhost:8080/SpringRestful/consultar/tabla/productos/{fecha}
+	
+
+
+	#Fecha en formato: dd-MM-YYY   (17-04-2011)
