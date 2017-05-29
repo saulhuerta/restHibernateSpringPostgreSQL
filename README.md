@@ -1,7 +1,12 @@
 # SpringRestfulWebServices
 
+## Compilar
+El proyecto utiliza Maven como herramienta de construcción, por lo que bastará con que descargue una copia de este proyecto y posteriormente construirla nuevamente con los goals: clean install
 
-Rutas:
+Maven se encargará de gestionar los recursos y descargará las librerías que hicieran falta.
+
+
+###Rutas:
 
 Req 1:
 	Consultar todos los registros por tabla (regresa como respuesta un JSON de la tabla)
